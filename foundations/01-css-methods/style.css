@@ -1,6 +1,9 @@
 /*style.css*/
 
-/*01 Adding style to first div element*/
+/*01 Adding red background to first div element*/
 div {
     background: red;
+    /* Changing font size to 32px and font color to white*/
+    font-size: 32px;
+    color: white;
 }
