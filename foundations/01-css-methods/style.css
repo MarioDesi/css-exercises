@@ -3,7 +3,12 @@
 /*01 Adding red background to first div element*/
 div {
     background: red;
-    /* Changing font size to 32px and font color to white*/
+    /* 02 Changing font size to 32px and font color to white*/
     font-size: 32px;
     color: white;
+    /* 03 Center and bold font*/
+    text-align: center;
+    font-weight: bold;
 }
+
+
