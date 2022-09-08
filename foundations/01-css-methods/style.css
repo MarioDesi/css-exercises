@@ -10,10 +10,7 @@ div {
     text-align: center;
     font-weight: bold;
     /* 04 Adjusting font to Times New Roman and sans serif from default*/
-    font-family: sans-serif;
-    padding: 0.2em ;
-    padding-left: 2px;
-
+    font-family: sans-serif;       
 }
 
 
