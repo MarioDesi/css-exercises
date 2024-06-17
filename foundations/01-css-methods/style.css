@@ -9,6 +9,8 @@ div {
     font-size: 35px;
     /* Center the text */
     text-align: center;
+    /* Bold the text */
+    font-weight: bold;
 }
 
         
