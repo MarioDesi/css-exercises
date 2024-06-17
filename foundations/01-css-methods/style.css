@@ -1,2 +1,14 @@
+/* styles.css */
 
+div {
+    /* Add red background to div element in indexsecond.html */
+    background-color: red;
+    /* Add white font color to the element */
+    color: white;
+    /* Increase size of the text */
+    font-size: 35px;
+    /* Center the text */
+    text-align: center;
+}
 
+        
