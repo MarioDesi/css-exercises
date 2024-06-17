@@ -1,35 +1,46 @@
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.para,
 .small-para {
-  font-size: 12px;
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+/* 01 Chaining two selectors for more specificity */
+.para.small-para {
+  font-size: 14px;
+  /*04 already assigned in selector above*/
 }
 
 .para {
   font-size: 22px;
 }
-
-.confirm {
+/* 02.. But after chaining another selector to it
+.button.confirm would become more specific*/
+.button.confirm {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
-
+/*02. Here .button rule is implemented first after
+.confirm since both contain one class selector */
 .button {
-  background-color: #ffc0cb;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
-  color: red;
+/*03 .child although targeting the class text child
+is overruled by multiple selectors of div.text
+, this can be changed chaining .text with .child */
+.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
   font-size: 14px;
 }
 
 div.text {
-  color: green;
-  font-size: 28px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
 }

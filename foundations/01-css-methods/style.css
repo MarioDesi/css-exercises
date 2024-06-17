@@ -1,0 +1,16 @@
+/*style.css*/
+
+/*01 Adding red background to first div element*/
+div {
+    background: red;
+    /* 02 Changing font size to 32px and font color to white*/
+    font-size: 32px;
+    color: white;
+    /* 03 Center and bold font*/
+    text-align: center;
+    font-weight: bold;
+    /* 04 Adjusting font to Times New Roman and sans serif from default*/
+    font-family: sans-serif;       
+}
+
+
