@@ -1,0 +1,21 @@
+/* style.css */
+
+.odd {
+    background-color: #ff000070;
+    font-family: Verdana, "DejaVu sans", sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+/* In the solution renamed this class to adjust-font-size and added it to number four as well since both have same font size*/
+.odd.three {
+    font-size: 24px;
+}
+
+#four{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: hsl(120,100%,75%,0.8);
+}
