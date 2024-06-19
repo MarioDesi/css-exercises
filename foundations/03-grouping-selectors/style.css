@@ -1,0 +1,18 @@
+/* style.css */
+
+.first {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.second {
+    background: yellow;
+}
+
+/* Grouping selector for shared attributes of elements */
+.first,
+.second {
+    font-family: Helvetica,"Times New Roman", sans-serif;
+    font-size: 28px;
+}
