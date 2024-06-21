@@ -7,8 +7,8 @@ body {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
-
-.small-para {
+/* The .para selector below has higher class order and same specificity as this rule set */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -16,9 +16,9 @@ body {
 .para {
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
+/* Both classes of .confirm and button are of equal specificity so the css just applies the rule that was set last */
+#confirm-button {
+background: green;
   color: white;
   font-weight: bold;
 } 
@@ -28,8 +28,8 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/* div.text has more selectors so need to give child more specificity or rule order(by making the other selector less specific and moving .child down) */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
