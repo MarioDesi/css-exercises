@@ -1,4 +1,8 @@
 .container {
+  /* Set display to flex and add align-items and justify content to this to center the red box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
