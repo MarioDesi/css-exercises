@@ -2,12 +2,41 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* Add attributes by the student below */
+.info {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Add attributes by the student below */
+.smallinfo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
 img {
+  display: flex;
+  padding: 10px 50px;
+  margin: 0;
+  /* Add attributes by the student above */
   width: 100px;
   height: 100px;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px; /* Better to use the margin as opposed to padding because this they collapse into each other as opposed to padding which adds up */
+  /* Add attributes by student above */
   font-size: 36px;
   font-weight: 900;
 }
