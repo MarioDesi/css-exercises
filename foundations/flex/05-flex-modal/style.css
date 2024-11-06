@@ -15,11 +15,35 @@ body {
   justify-content: center;
 }
 
+/* Add attributes by student below */
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+.mid {
+  margin: 5px 0;
+}
+
+.bott {
+  margin: 5px 0;
+}
+/* Add attributes by student above */
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Add attributes by student below */
+  display: flex;
+  padding: 15px;
 }
 
 .icon {
@@ -27,12 +51,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 180px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Add attributes by student below */
+  margin-right: 15px;
 }
 
 .close-button {
