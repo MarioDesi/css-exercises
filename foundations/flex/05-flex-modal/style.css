@@ -34,6 +34,9 @@ body {
 .bott {
   margin: 5px 0;
 }
+
+/* Alternative was to just extend the header to the x button as well and then edit that container css
+an then  add margin to the text since the box size doesn't change using flex wouldn't be neccessary */
 /* Add attributes by student above */
 
 .modal {
