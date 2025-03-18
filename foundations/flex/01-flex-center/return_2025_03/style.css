@@ -13,3 +13,18 @@
   width: 80px;
   height: 80px;
 }
+
+/* Solution, for demonstration purpose for exercise and to see where my work starts and ends 
+from the original css */
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-content: center; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
