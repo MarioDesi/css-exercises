@@ -16,13 +16,18 @@
 
 /* Solution, for demonstration purpose for exercise and to see where my work starts and ends 
 from the original css */
+/* IMPORTANT READ THIS  - do few more tests to understand difference between justify/align - items/content and do not spend
+too much time on this after few more 5 more changes just move one and add to the git send commit and push to origin */
 
+/* Only need to adjust the .container selector to center the red div the .box selector is for the text in the div */
+/*
 .box {
   display: flex;
   justify-content: center;
   align-content: center; 
 }
 
+*/
 .container {
   display: flex;
   justify-content: center;
